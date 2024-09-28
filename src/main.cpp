@@ -27,6 +27,7 @@ int main()
     screenWidth = desktopMode.width;
     screenHeight = desktopMode.height;
     settings.antialiasingLevel = 8;  // Ative o anti-aliasing
+    settings.depthBits = 24; // Define 24 bits para o depth buffer (padrão recomendado)
     window.create(sf::VideoMode(screenWidth, screenHeight), "app",
     sf::Style::Fullscreen, settings);
     

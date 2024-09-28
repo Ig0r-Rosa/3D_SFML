@@ -9,6 +9,7 @@ void inicializaOpenGL()
     glLoadIdentity();
     gluPerspective(90.0, 800.0 / 600.0, 1.0, 500.0);
     glMatrixMode(GL_MODELVIEW);
+    glDepthFunc(GL_LESS);
 }
 
 void drawCube()
