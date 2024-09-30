@@ -16,6 +16,7 @@
                 "-lsfml-system",
                 "-lsfml-audio",
                 "-lGL",
+                "-lGLU",
                 "-ldl",
                 "-o",
                 "${workspaceFolder}/compilado/app"
